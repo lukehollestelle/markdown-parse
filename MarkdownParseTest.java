@@ -56,6 +56,6 @@ public class MarkdownParseTest {
         assertEquals(List.of(), MarkdownParse.getLinks(Files.readString(Path.of("imageTest.md"))));
     }
     public void failTest() throws IOException{
-        assertEquals(1+1, 2);
+        assertEquals(1+1, 5);
     }
 }
